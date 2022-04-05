@@ -93,3 +93,4 @@ expect(wrapper.state('calendarFocused')).toBe(calendarFocused);
 
 
 });
+
