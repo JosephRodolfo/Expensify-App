@@ -1,13 +1,8 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`should render expensedashboard page correctly 1`] = `
+exports[`should render ExpenseDashboardPage correctly 1`] = `
 <div>
-  404 - 
-  <Link
-    replace={false}
-    to="/"
-  >
-    Go home!
-  </Link>
+  <Connect(ExpenseListFilters) />
+  <Connect(ExpenseList) />
 </div>
 `;

@@ -1,12 +1,11 @@
-import React from "react";
-import { BrowserRouter, Route, Switch, Link, NavLink } from "react-router-dom";
-import EditExpensePage from "../components/EditExpensePage";
-import Header from "../components/Header";
-import HelpPage from "../components/HelpPage";
-import NotFoundPage from "../components/NotFoundPage"
-import AddExpensePage from "../components/AddExpensePage"
-import ExpenseDashboardPage from "../components/ExpenseDashBoardPage";
-
+import React from 'react';
+import { BrowserRouter, Route, Switch, Link, NavLink } from 'react-router-dom';
+import ExpenseDashboardPage from '../components/ExpenseDashboardPage';
+import AddExpensePage from '../components/AddExpensePage';
+import EditExpensePage from '../components/EditExpensePage';
+import HelpPage from '../components/HelpPage';
+import NotFoundPage from '../components/NotFoundPage';
+import Header from '../components/Header';
 
 const AppRouter = () => (
   <BrowserRouter>
@@ -24,7 +23,3 @@ const AppRouter = () => (
 );
 
 export default AppRouter;
-
-
-
-
