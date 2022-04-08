@@ -8,8 +8,7 @@ import expenses from "../fixtures/expenses";
 import configureMockStore from "redux-mock-store";
 import thunk from "redux-thunk";
 import { config } from "webpack";
-import database from '../../../firebase/firebase';
-
+import { database } from "firebase";
 //const createMockStore = configureMockStore(thunk);
 const middlewares = [thunk];
 const createMockStore = configureMockStore(middlewares);
