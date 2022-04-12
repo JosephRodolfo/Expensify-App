@@ -12,7 +12,7 @@ test("should generate login action object", () => {
 
 test("should generate logout action object", () => {
   const action = logout();
-  expection(action).toEqual({
+  expect(action).toEqual({
     type: "LOGOUT",
   });
 });
